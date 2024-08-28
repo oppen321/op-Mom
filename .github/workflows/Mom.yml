@@ -435,7 +435,7 @@ jobs:
           sleep 1
         done
 
-    - name: update jell
+    - name: update Mom
       run: |
        if git status --porcelain | grep .; then
         git add .
