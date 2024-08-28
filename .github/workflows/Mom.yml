@@ -1,11 +1,11 @@
 #
 # This is free software, lisence use MIT.
 
-name: marry-jell
+name: marry-Mom
 on:
   push:
     paths:
-      - '.github/workflows/jell.yml'
+      - '.github/workflows/Mom.yml'
       - '.gitignore'
       - '.github/diy/**'
   schedule:
