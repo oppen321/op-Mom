@@ -11,7 +11,7 @@ PKG_NAME:=qt6tools
 PKG_BASE:=6.2
 PKG_BUGFIX:=9
 PKG_VERSION:=$(PKG_BASE).$(PKG_BUGFIX)
-PKG_RELEASE:=6
+PKG_RELEASE:=2
 
 PKG_SOURCE:=qttools-everywhere-opensource-src-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=https://download.qt-project.org/archive/qt/$(PKG_BASE)/$(PKG_VERSION)/submodules/ \
