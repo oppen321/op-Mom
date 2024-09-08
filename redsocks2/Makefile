@@ -1,3 +1,4 @@
+
 # SPDX-License-Identifier: GPL-3.0-only
 #
 # Copyright (C) 2021 ImmortalWrt.org
@@ -5,12 +6,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=redsocks2
-PKG_VERSION:=release-test4
-PKG_RELEASE:=2
+PKG_VERSION:=0.70
+PKG_RELEASE:=3
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/semigodking/redsocks.git
-PKG_SOURCE_DATE:=2024-06-29
+PKG_SOURCE_DATE:=2024-09-07
 PKG_SOURCE_VERSION:=null
 PKG_MIRROR_HASH:=skip
 
