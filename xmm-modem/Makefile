@@ -1,24 +1,20 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=telegrambot
-PKG_VERSION:=0.0.4
-PKG_RELEASE:=6
+PKG_NAME:=xmm-modem
+PKG_VERSION:=0.1.3
+PKG_RELEASE:=4
 PKG_MAINTAINER:=Konstantine Shevlakov <shevlakov@132lan.ru>
 
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   PKGARCH:=all
-  DEPENDS:=+curl
-  TITLE:=Openwrt Telegram Bot
+  DEPENDS:=+comgt +kmod-usb-acm +kmod-usb-net-cdc-ncm
+  TITLE:=Fibocom L850/L860 protocol
 endef
 
 define Package/$(PKG_NAME)/description
-	Telegram bot for router with firmware Lede/Openwrt.
-endef
-
-define Package.$(PKG_NAME)/conffiles
-	/etc/config/telegrambot
+	Simple connect to cellular for Fibocom L850/L860 module (Intel XMM LTE-A 7360/7560)
 endef
 
 
