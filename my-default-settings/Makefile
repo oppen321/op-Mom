@@ -9,8 +9,8 @@ include $(TOPDIR)/rules.mk
 include $(INCLUDE_DIR)/kernel.mk
 
 PKG_NAME:=my-default-settings
-PKG_VERSION:=1
-PKG_RELEASE:=12
+PKG_VERSION:=2
+PKG_RELEASE:=13
 
 include $(INCLUDE_DIR)/package.mk
 
